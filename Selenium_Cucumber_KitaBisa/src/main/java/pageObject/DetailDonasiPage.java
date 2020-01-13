@@ -23,6 +23,7 @@ public class DetailDonasiPage {
 	// Choice
 	public static By choice_gopay_payment_method = By.cssSelector("#__next > main > div:nth-child(2) > div:nth-child(1)");
 	public static By choice_jenius_payment_method = By.cssSelector("#__next > main > div:nth-child(2) > div:nth-child(2)");
+	
 	// View
 	public static By view_title_nominal = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > p.style__DonationInputTitle-nfgh9x-2.cjqVUz");
 	public static By view_payment_method_detail_donasi = By.cssSelector("#contribute_itemlist_list-pembayaran-20");
@@ -31,7 +32,6 @@ public class DetailDonasiPage {
 	public static By view_error_message_nominal = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > p.style__ErrorText-sc-9kghrx-0.hzIHnV");
 	public static By view_error_message_payment_method = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > div.style__PaymentContainer-sc-1wfxixd-0.UJsVU > p");
 	public static By view_error_message_fullname = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > div.style__UserContainer-sc-1l6tpe1-0.dVkQpa > span:nth-child(3)");
-													//By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > div.style__UserContainer-sc-1l6tpe1-0.dVkQpa > span")
 	public static By view_error_message_email = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > div.style__UserContainer-sc-1l6tpe1-0.dVkQpa > span:nth-child(5)");
 	public static By view_error_message_email_2 = By.cssSelector("#contribute-page > form.style__Form-sc-12bsx5v-1.dETokB > div.style__UserContainer-sc-1l6tpe1-0.dVkQpa > span");
 }
